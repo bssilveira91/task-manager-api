@@ -41,6 +41,7 @@ end
 
 gem 'listen', '~> 3.0.5'
 gem 'wdm', '>= 0.1.0'
+gem 'devise'
 
 group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
