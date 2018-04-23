@@ -53,3 +53,4 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'bcrypt-ruby', '3.0.0', :require => 'bcrypt'
 gem 'active_model_serializers', '~> 0.10.0'
+gem 'ransack'

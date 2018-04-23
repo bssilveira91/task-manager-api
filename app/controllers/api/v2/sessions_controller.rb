@@ -4,6 +4,7 @@ class Api::V2::SessionsController < ApplicationController
     user = User.find_by(email: session_params[:email])
 
     if user && user.valid_password?(session_params[:password])
+
       sign_in user, store: false
       user.generate_authentication_token!
       user.save
