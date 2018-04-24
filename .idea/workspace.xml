@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="526c06db-a375-45ce-8b7b-68529743f2f8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -21,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
+      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="54" column="10" lean-forward="true" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
+            <state relative-caret-position="204">
+              <caret line="12" column="73" lean-forward="true" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -50,7 +48,6 @@
         <option value="$PROJECT_DIR$/app/serializers/api/v2/user_serializer.rb" />
         <option value="$PROJECT_DIR$/config/initializers/devise_token_auth.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20180423104405_devise_token_auth_create_users.rb" />
         <option value="$PROJECT_DIR$/app/controllers/api/v1/base_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/api/v1/sessions_controller.rb" />
@@ -66,6 +63,7 @@
         <option value="$PROJECT_DIR$/config/locales/pt-BR.yml" />
         <option value="$PROJECT_DIR$/app/serializers/api/v2/task_serializer.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
       </list>
     </option>
   </component>
@@ -278,12 +276,12 @@
       <workItem from="1524180356062" duration="3423000" />
       <workItem from="1524417155784" duration="3054000" />
       <workItem from="1524431827087" duration="5413000" />
-      <workItem from="1524529734445" duration="5653000" />
+      <workItem from="1524529734445" duration="5899000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37263000" />
+    <option name="totallyTimeSpent" value="37509000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -548,13 +546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="82" selection-start-line="4" selection-start-column="82" selection-end-line="4" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/users_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -669,8 +660,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="54" column="10" lean-forward="true" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
+        <state relative-caret-position="323">
+          <caret line="43" column="12" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="73" lean-forward="true" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
         </state>
       </provider>
     </entry>
